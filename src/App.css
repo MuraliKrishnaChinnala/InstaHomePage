@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main_container{
+  margin: 0;
+  /* background-color: rgba(var(--b3f,250,250,250),1); */
+  padding: 20px;
+
+}
+
+.form_container{
+    background-color: rgba(var(--d87,255,255,255),1);
+    border-radius: 1px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.heading{
+  font-family: 'Tangerine', serif;
+  font-size: 80px;
+  letter-spacing: 1px;
+}
+
+.input_container_mail{
+  height: 40px;
+  margin-bottom: 20px;
+  width:90%;
+}
+
+.input_container{
+  height: 40px;
+  width: 90%;
+}
+
+.inputs{
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lines_container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.line{
+  border: 1px solid black;
+  width: 40%;
+}
+
+.image_container{
+  display: none;
+}
+
+.facebook{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+span{
+  color: #0095f6;
+}
+
+.box_container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+}
+
+.small{
+  font-size: 12px;
+  margin: 0;
+}
+
+.big{
+  font-size: 16px;
+  margin: 0;
+}
+
+.right{
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 1297px){
+  .image_container{
+    display: flex;
+    margin-right: 20px;
+    width: 50%;
+  }
+  .image{
+    width: 90%;
+  }
+  .forms{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .form_container{
+    width: 400px;
+    border: 1px solid grey;
+  }
+  .main_container{
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* .image{
+  width: 100%;
+  height: 100%;
+} */
